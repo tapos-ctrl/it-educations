@@ -1,0 +1,38 @@
+.service{
+    /* height: 80vh; */
+}
+.service-title{
+
+}
+.all-course-btn{
+    padding: 10px 34px;
+    border-radius: 50px;
+    color: #fff;
+    background:black;
+    border: 1px solid;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.all-course-btn:hover{
+    border: 1px solid black;
+    background:transparent;
+    color:#000
+}
+.enrollBtn{
+    padding: 5px 34px;
+    border-radius: 50px;
+    color: #fff;
+
+    color:#000;
+    background:transparent;
+    border: 1px solid;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.enrollBtn:hover{
+    border: 1px solid black;
+    color:#fff;
+    background:black;
+    transition:1s;
+
+}

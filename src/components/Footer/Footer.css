@@ -1,0 +1,53 @@
+.footer{
+    background:black;
+    padding: 50px 0px;
+    
+}
+.footer-title{
+    color:silver;
+}
+.footer-list{
+    list-style: none;
+    text-align: left;
+}
+.recent-course-igm{
+    width:40%
+}
+.recent-course-igm img{
+    width:100%;
+    border-radius: 8px;
+}
+.recent-course-igm h6{
+    color:silver;
+
+}
+
+
+
+@media (max-width: 575.98px) { 
+    .col-xs-12{
+        width: 100%;
+    }
+    .col-xs-6{
+        width:50%
+    }
+    
+ }
+
+@media (max-width: 767.98px) { 
+
+}
+
+@media (max-width: 991.98px) {
+
+ }
+
+
+@media (max-width: 1199.98px) { 
+
+ }
+
+
+@media (max-width: 1399.98px) { 
+
+ }

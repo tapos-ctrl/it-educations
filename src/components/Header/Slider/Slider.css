@@ -1,0 +1,116 @@
+.custom-slider-img{
+    height:87.4vh;
+    position: relative;
+    opacity: .6;
+}
+.slider-text-box{
+    z-index: 1;
+    position: absolute;
+    display:block;
+    top:20vh;
+    margin-left: 23vw;
+}
+.slider-text-box h1{
+    color:white;
+    /* z-index: 1; */
+}
+.slider-text-box p{
+    color:rgb(238, 238, 238);
+    font-size: 17px;
+}
+.custom-slider{
+    background: rgb(0, 0, 0);
+    z-index: 1;
+}
+.courseBtn {
+    padding: 5px 24px;
+    border-radius: 50px;
+    color: #fff;
+    border: 1px solid;
+    margin-top:0px;
+}
+.courseBtn:hover{
+    background: black;
+    color:#fff;
+    transition: 1s;
+}
+.demoBtn{
+    padding: 10px 34px;
+    border-radius: 50px;
+    color: #fff;
+    background:black;
+    border: 1px solid;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.demoBtn:hover{
+    background:transparent;
+    transition:1s;
+    color:#fff;
+    border:1px solid #fff;
+
+}
+/* .slider-section{
+    margin-top: 13.5vh;
+} */
+@media (max-width: 575.98px) { 
+    .slider-text-box h1 {
+        font-size: 15px;
+    }
+    .slider-text-box p {
+        font-size: 8px;
+    }
+    .slider-text-box{
+        margin-left:16vw;
+        margin-top: 10vh;
+    }
+    
+}
+@media (min-width: 575.98px) { 
+    .slider-text-box h1 {
+        font-size: 20px;
+    }
+    .slider-text-box p {
+        font-size: 10px;
+    }
+    .slider-text-box{
+        margin-left:16vw;
+        margin-top: 10vh;
+    }
+}
+@media (min-width: 767.98px) { 
+    .slider-text-box h1 {
+        font-size: 24px;
+    }
+    .slider-text-box p {
+        font-size: 12px;
+    }
+    .slider-text-box{
+        margin-left:22vw;
+        margin-top: 10vh;
+    }
+}
+@media (min-width: 991.98px) { 
+    .slider-text-box h1 {
+        font-size: 26px;
+    }
+    .slider-text-box p {
+        font-size: 14px;
+    }
+    .slider-text-box{
+        margin-left:22vw;
+        margin-top: 10vh;
+    }
+}
+@media (min-width: 1199.98px) {
+    .slider-text-box h1 {
+        font-size: 35px;
+    }
+    .slider-text-box p {
+        font-size: 18px;
+    }
+    .slider-text-box{
+        margin-left:25vw;
+        margin-top: 10vh;
+    }
+}

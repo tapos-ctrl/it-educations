@@ -1,0 +1,13 @@
+.custom-list{
+    flex-grow: 0;
+}
+.custom-logo img{
+    max-width:100px;
+}
+.custom-nav-bg{
+    background:rgba(208, 213, 189, 0.481);
+}
+.custom-logo>span{
+    font-size:30px;
+    font-weight:800;
+}
